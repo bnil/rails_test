@@ -1,0 +1,10 @@
+all:
+  exclude:
+    - 'spec/**/*'
+github:
+  slug: bnil/rails_test
+  access_token: 63dc60ded35a984e372b995549ee1971dda19c5f
+  api_endpoint: https://api.github.com/
+  web_endpoint: https://github.com/
+max_warnings: 20
+format: "%{runner} %{level} %{msg}"
