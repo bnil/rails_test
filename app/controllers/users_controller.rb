@@ -15,12 +15,23 @@ class UsersController < ApplicationController
   # GET /users/new
   def new
     @user = User.new
+    a = 1 + 2
+    if a > 3
+      return 0
+    else
+      4
+    end
   end
 
   # GET /users/1/edit
   def edit
-
-      
+    @user = User.new
+    a = 1 + 2
+    if a > 3
+      return 0
+    else
+      4
+    end
   end
 
   # POST /users
