@@ -37,6 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails', '~> 3.5'
   gem 'simplecov', require: false
+  gem 'codeclimate-test-reporter', require: false
 end
 
 group :development do
