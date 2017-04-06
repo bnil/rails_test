@@ -5,15 +5,15 @@ environment_variables:
     JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
 
 phases:
-
+  install:
+    commands:
+      - bundle install
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
       - echo Build started on `date`
-      - bundle install
   post_build:
     commands:
       - echo Build completed on `date`
-  discard-paths: yes
