@@ -4,4 +4,3 @@ RUN apt install -y nodejs-legacy
 WORKDIR /app
 ADD ["Gemfile",  "Gemfile.lock", "./"]
 RUN bundle install
-ADD ./ ./
