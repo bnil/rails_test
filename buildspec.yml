@@ -5,9 +5,7 @@ environment_variables:
     JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
 
 phases:
-  install:
-    commands:
-      - apt-get update -y
+
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
