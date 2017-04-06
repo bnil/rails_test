@@ -7,7 +7,7 @@ environment_variables:
 phases:
   install:
     commands:
-      - bundle install
+      - env | sort
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
