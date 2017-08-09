@@ -31,6 +31,8 @@ group :development, :test do
   gem 'rspec-rails'#, '~> 3.5'
   gem 'simplecov', require: false
   gem 'codeclimate-test-reporter', require: false
+  gem 'rspec_junit_formatter'
+  gem 'rails-controller-testing'
 end
 
 group :development do
