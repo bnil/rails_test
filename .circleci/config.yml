@@ -40,7 +40,7 @@ jobs:
       - run: bundle exec rake db:create
       - run: bundle exec rake db:structure:load
 
-      # run tests!
+      # run tests2!
       - run:
           name: run tests
           command: |
