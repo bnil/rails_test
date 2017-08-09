@@ -43,6 +43,7 @@ jobs:
           name: run tests
           command: |
             mkdir /tmp/test-results
+            rspec
 
 
       # collect reports
